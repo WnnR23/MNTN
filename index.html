@@ -55,11 +55,14 @@
         <div class="hero-inner">
           <p class="heading-top-text">A Hiking guide</p>
           <h2 class="hero-heading">Be prepared for the Mountains and beyond!</h2>
-          <p class="hero-heading-bottom-text">scroll down <i class="arrow-down"></i></p>
+          <p class="hero-heading-bottom-text arrow-down">scroll down<svg width="16" height="24" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path id="arrow" d="m16 16-1.41-1.41L9 20.17V0H7v20.17l-5.58-5.59L0 16l8 8 8-8Z" fill="#fff" />
+            </svg></p>
         </div>
         <ul class="hero-director">
-          <li class="hero-director-heading">
-            <p>Start</p>
+          <li class="hero-director-item">
+            <p class="hero-director-heading">Start</p>
           </li>
           <li class="hero-director-item">
             <a class="hero-director-link" href="#s01">01</a>
@@ -73,15 +76,15 @@
         </ul>
       </div>
     </div>
+    <div class="bg-connector"></div>
   </div>
-  <span class="bg-connector"></span>
   <div class="main-content">
     <section class="features">
       <div class="container">
         <ul class="features-list">
-          <li class="features-item">
+          <li class="features-item" id="s01">
             <div class="features-inner">
-              <p class="small-heading">GEt Started</p>
+              <p class="heading-top-text">GEt Started</p>
               <h2 class="features-heading">What level of hiker are you?</h2>
               <p class="features-text">Determining what level of hiker you are can be an important tool when planning
                 future hikes. This hiking level guide will help you plan hikes according to different hike ratings set
@@ -94,9 +97,9 @@
             <img class="features-img" src="img/manOnMntn.jpg" srcset="img/manOnMntn.jpg 1x, img/manOnMntn@2x.jpg 2x"
               alt="Mountain">
           </li>
-          <li class="features-item">
+          <li class="features-item" id="s02">
             <div class="features-inner">
-              <p class="small-heading">Hiking Essentials</p>
+              <p class="heading-top-text">Hiking Essentials</p>
               <h2 class="features-heading">Picking the right Hiking Gear!</h2>
               <p class="features-text">The nice thing about beginning hiking is that you don't really need any special
                 gear, you can probably get away with things you already have.
@@ -107,9 +110,9 @@
             <img class="features-img" src="img/cloudlyMntn.jpg"
               srcset="img/cloudlyMntn.jpg 1x, img/cloudlyMntn@2x.jpg 2x" alt="Mountain">
           </li>
-          <li class="features-item">
+          <li class="features-item" id="s03">
             <div class="features-inner">
-              <p class="small-heading">where you go is the key</p>
+              <p class="heading-top-text">where you go is the key</p>
               <h2 class="features-heading">Understand Your Map & Timing</h2>
               <p class="features-text">To start, print out the hiking guide and map. If it's raining, throw them in a
                 Zip-Lock bag. Read over the guide, study the map, and have a good idea of what to expect. I like to know
@@ -126,47 +129,49 @@
   </div>
   <footer>
     <div class="container">
-      <div class="footer-info">
-        <a class="logo-link" href="index.html">
-          <img src="img/logo.svg" alt="MNTN" width="108" height="24">
-        </a>
-        <p class="footer-text">Get out there & discover your next slope, mountain & destination!</p>
-        <p class="footer-copyrights-info">Copyright 2019 MNTN, Inc. Terms & Privacy</p>
+      <div class="footer-wrap">
+        <div class="footer-info">
+          <a class="logo-link" href="index.html">
+            <img src="img/logo.svg" alt="MNTN" width="108" height="24">
+          </a>
+          <p class="footer-text">Get out there & discover your next slope, mountain & destination!</p>
+          <p class="footer-copyrights-info">Copyright 2019 MNTN, Inc. Terms & Privacy</p>
+        </div>
+        <ul class="footer-menu-list blog-menu">
+          <li class="footer-menu-item">
+            <h3 class="footer-menu-heading">More on The Blog</h3>
+          </li>
+          <li class="footer-menu-item">
+            <a class="footer-menu-link" href="#">About MNTN</a>
+          </li>
+          <li class="footer-menu-item">
+            <a class="footer-menu-link" href="#">Contributors & Writers</a>
+          </li>
+          <li class="footer-menu-item">
+            <a class="footer-menu-link" href="#">Write For Us</a>
+          </li>
+          <li class="footer-menu-item">
+            <a class="footer-menu-link" href="#">Contact Us</a>
+          </li>
+          <li class="footer-menu-item">
+            <a class="footer-menu-link" href="#">Privacy Policy</a>
+          </li>
+        </ul>
+        <ul class="footer-menu-list mntn-menu">
+          <li class="footer-menu-item">
+            <h3 class="footer-menu-heading">More on MNTN</h3>
+          </li>
+          <li class="footer-menu-item">
+            <a class="footer-menu-link" href="#">The Team</a>
+          </li>
+          <li class="footer-menu-item">
+            <a class="footer-menu-link" href="#">Jobs</a>
+          </li>
+          <li class="footer-menu-item">
+            <a class="footer-menu-link" href="#">Press</a>
+          </li>
+        </ul>
       </div>
-      <ul class="footer-menu-list blog-menu">
-        <li class="footer-heading-menu">
-          <h3 class="footer-menu-heading">More on The Blog</h3>
-        </li>
-        <li class="footer-menu-item">
-          <a class="footer-menu-link" href="#">About MNTN</a>
-        </li>
-        <li class="footer-menu-item">
-          <a class="footer-menu-link" href="#">Contributors & Writers</a>
-        </li>
-        <li class="footer-menu-item">
-          <a class="footer-menu-link" href="#">Write For Us</a>
-        </li>
-        <li class="footer-menu-item">
-          <a class="footer-menu-link" href="#">Contact Us</a>
-        </li>
-        <li class="footer-menu-item">
-          <a class="footer-menu-link" href="#">Privacy Policy</a>
-        </li>
-      </ul>
-      <ul class="footer-menu-list mntn-menu">
-        <li class="footer-heading-menu">
-          <h3 class="footer-menu-heading">More on MNTN</h3>
-        </li>
-        <li class="footer-menu-item">
-          <a class="footer-menu-link" href="#">The Team</a>
-        </li>
-        <li class="footer-menu-item">
-          <a class="footer-menu-link" href="#">Jobs</a>
-        </li>
-        <li class="footer-menu-item">
-          <a class="footer-menu-link" href="#">Press</a>
-        </li>
-      </ul>
     </div>
   </footer>
   <script src="js/main.js"></script>
